@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,100&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./style/main.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- Ini Navbar -->
+    <nav
+      class="flex flex-row justify-between mx-auto bg-white shadow-md py-8 lg:px-24 items-center"
+    >
+      <div class="flex gap-x-12 items-center">
+        <img src="img/logo.svg" alt="" class="px-4" />
+        <ul class="flex-row gap-7 hidden lg:flex">
+          <li>
+            <a href="" class="text-base text-black hover:text-ungu">Program</a>
+          </li>
+          <li>
+            <a href="" class="text-base text-black hover:text-ungu">Mentor</a>
+          </li>
+          <li>
+            <a href="" class="text-base text-black hover:text-ungu">Pricing</a>
+          </li>
+          <li>
+            <a href="" class="text-base text-black hover:text-ungu">Business</a>
+          </li>
+        </ul>
+      </div>
+      <div class="gap-x-5 hidden lg:flex">
+        <a
+          href=""
+          class="bg-transparan py-3 px-9 rounded-full border border-border text-ungu text-base font-medium"
+          >Sign In</a
+        >
+        <a
+          href=""
+          class="py-3 px-9 rounded-full bg-ungu text-base font-medium text-white"
+          >Sign Up</a
+        >
+      </div>
+      <div id="btn-dropdown" class="block lg:hidden px-4">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke-width="1.5"
+          stroke="currentColor"
+          class="w-6 h-6"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M3.75 5.25h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5"
+          />
+        </svg>
+      </div>
+
+      <!-- Humburger Float Dropdown -->
+      <div
+        id="dropdown-menu"
+        class="hambuger-menu absolute top-36 block px-5 w-full lg:hidden md:px-10 border-b"
+      >
+        <div class="flex flex-col md:p-8 gap-y-4 bg-ungu px-4 py-4 rounded-lg">
+          <ul class="flex flex-col gap-y-5">
+            <li>
+              <a href="" class="text-base text-white">Program</a>
+            </li>
+            <li>
+              <a href="" class="text-base text-white">Mentor</a>
+            </li>
+            <li>
+              <a href="" class="text-base text-white">Pricing</a>
+            </li>
+            <li>
+              <a href="" class="text-base text-white">Business</a>
+            </li>
+          </ul>
+          <a
+            href=""
+            class="bg-transparan flex justify-center py-3 rounded-lg text-ungu font-medium"
+            >Sign In</a
+          >
+          <a
+            href=""
+            class="bg-transparan flex justify-center py-3 rounded-lg text-ungu font-medium"
+            >Sign Up</a
+          >
+        </div>
+      </div>
+    </nav>
+    <!-- Ini Akhir Navbar -->
+
+    <!-- Ini Main Hero -->
+    <section
+      class="max-w-5xl mx-auto flex flex-col lg:flex-row justify-between"
+    >
+      <div class="flex flex-col gap-y-5 mt-32 items-start px-5 lg:px-0">
+        <h1 class="text-base text-ijo font-semibold">LEARN FROM EXPERTS</h1>
+        <h2 class="text-[42px] font-semibold">
+          Start Your <span class="text-ungu">Developer</span> <br />
+          <span class="text-ungu">Journey</span> Today
+        </h2>
+        <p class="text-base font-normal text-gray-500">
+          Our bootcamp is helping junior developers who <br />
+          are really passionate in the programming.
+        </p>
+        <a href="" class="bg-ungu px-8 py-3 rounded-full text-white"
+          >Get Started</a
+        >
+      </div>
+      <img src="img/banner.png" alt="" class="lg:w-1/2 mt-20" />
+    </section>
+    <!-- Ini Akhir Main Hero -->
+
+    <!-- Ini Sponsorhip -->
+    <section class="flex flex-wrap justify-center mt-16 gap-x-12 gap-y-5">
+      <img src="img/apple-11 1.svg" alt="" />
+      <img src="img/Group 13.svg" alt="" />
+      <img src="img/slack-2 1.svg" alt="" />
+      <img src="img/spotify-1 1.svg" alt="" />
+      <img src="img/google-2015 1.svg" alt="" />
+    </section>
+    <!-- Ini Akhir Sponsorship -->
+
+    <!-- Ini Benefit -->
+    <section class="max-w-6xl mx-auto flex flex-col mt-20 items-center">
+      <h1 class="text-base text-ijo font-semibold">OUR SUPER BENEFITS</h1>
+      <h2 class="text-3xl font-semibold">Learn Faster & Better</h2>
+      <div class="flex flex-wrap mt-16 justify-center gap-y-4 gap-x-9">
+        <div class="flex flex-col gap-y-5">
+          <img src="img/ic_globe.svg" alt="" class="w-[56px]" />
+          <h1 class="text-xl font-medium">Diversity</h1>
+          <p class="text-base text-gray-500">
+            Learn from anyone around the <br />
+            world and get a new skills
+          </p>
+        </div>
+        <div class="flex flex-col gap-y-5">
+          <img src="img/ic_globe 2.svg" alt="" class="w-[56px]" />
+          <h1 class="text-xl font-medium">A.I Guideline</h1>
+          <p class="text-base text-gray-500">
+            Learn from anyone around the <br />
+            world and get a new skills
+          </p>
+        </div>
+        <div class="flex flex-col gap-y-5">
+          <img src="img/ic_globe 3.svg" alt="" class="w-[56px]" />
+          <h1 class="text-xl font-medium">1-1 Mentoring</h1>
+          <p class="text-base text-gray-500">
+            Learn from anyone around the <br />
+            world and get a new skills
+          </p>
+        </div>
+        <div class="flex flex-col gap-y-5">
+          <img src="img/ic_globe 4.svg" alt="" class="w-[56px]" />
+          <h1 class="text-xl font-medium">Future Job</h1>
+          <p class="text-base text-gray-500">
+            Learn from anyone around the <br />
+            world and get a new skills
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- Ini Akhir Benefit -->
+
+    <!-- Ini Fill 1 -->
+    <section class="max-w-6xl mx-auto flex flex-wrap justify-center gap-x-32 mt-28 gap-y-4">
+      <img src="img/Group 23.png" alt="" class="w-[390px] order-2 lg:order-1" />
+      <div class="flex flex-col mt-24 items-start order-1 lg:order-2">
+        <h1 class="uppercase text-base font-semibold text-ijo">
+          better career
+        </h1>
+        <h2 class="mt-2 text-3xl font-semibold">Prepare The Journey</h2>
+        <p class="py-8 text-base text-gray-500">
+          We do really care to our students’ future career <br />
+          so it would be good if you are taking a quick interview
+        </p>
+        <a href="" class="bg-transparan px-8 py-3 rounded-full text-ungu text-base">Learn More</a>
+      </div>
+    </section>
+    <!-- Ini Akhir Fill 1 -->
+
+    <!-- Ini Fill 2 -->
+    <section class="max-w-6xl mx-auto flex flex-wrap justify-center gap-x-32 mt-16 lg:mt-28 gap-y-4">
+      <div class="flex flex-col mt-24 items-start">
+        <h1 class="uppercase text-base font-semibold text-ijo">
+          study harder
+        </h1>
+        <h2 class="mt-2 text-3xl font-semibold">Finish The Project</h2>
+        <p class="py-8 text-base text-gray-500">
+          Each of you will be joining the private group and also <br>
+          working together with team members on project
+        </p>
+        <a href="" class="bg-transparan px-8 py-3 rounded-full text-ungu text-base">View Demo</a>
+      </div>
+      <img src="img/Group 24.png" alt="" class="w-[390px]" />
+    </section>
+    <!-- Ini Akhir Fill 2 -->
+
+    <!-- Ini Fill 3 -->
+    <section class="max-w-6xl mx-auto flex flex-wrap justify-center gap-x-32 mt-16 lg:mt-28 gap-y-4">
+      <img src="img/Group 25.png" alt="" class="w-[390px] order-2 lg:order-1" />
+      <div class="flex flex-col mt-24 items-start order-1 lg:order-2">
+        <h1 class="uppercase text-base font-semibold text-ijo">
+          better career
+        </h1>
+        <h2 class="mt-2 text-3xl font-semibold">Prepare The Journey</h2>
+        <p class="py-8 text-base text-gray-500">
+          We do really care to our students’ future career <br />
+          so it would be good if you are taking a quick interview
+        </p>
+        <a href="" class="bg-transparan px-8 py-3 rounded-full text-ungu text-base">Learn More</a>
+      </div>
+    </section>
+    <!-- Ini Akhir Fill 3 -->
+
+    <script src="./script/main.js"></script>
+  </body>
+</html>
