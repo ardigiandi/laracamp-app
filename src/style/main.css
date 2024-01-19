@@ -16,7 +16,7 @@
   /* 2 */
   border-style: solid;
   /* 2 */
-  border-color: #e5e7eb;
+  border-color: currentColor;
   /* 2 */
 }
 
@@ -569,6 +569,11 @@ html {
   margin-right: auto;
 }
 
+.my-7 {
+  margin-top: 1.75rem;
+  margin-bottom: 1.75rem;
+}
+
 .mt-16 {
   margin-top: 4rem;
 }
@@ -593,6 +598,10 @@ html {
   margin-top: 8rem;
 }
 
+.mt-7 {
+  margin-top: 1.75rem;
+}
+
 .block {
   display: block;
 }
@@ -609,8 +618,16 @@ html {
   height: 1.5rem;
 }
 
+.h-\[453px\] {
+  height: 453px;
+}
+
 .w-6 {
   width: 1.5rem;
+}
+
+.w-\[270px\] {
+  width: 270px;
 }
 
 .w-\[390px\] {
@@ -670,6 +687,11 @@ html {
        column-gap: 3rem;
 }
 
+.gap-x-2 {
+  -moz-column-gap: 0.5rem;
+       column-gap: 0.5rem;
+}
+
 .gap-x-32 {
   -moz-column-gap: 8rem;
        column-gap: 8rem;
@@ -693,6 +715,10 @@ html {
   row-gap: 1.25rem;
 }
 
+.rounded-3xl {
+  border-radius: 1.5rem;
+}
+
 .rounded-full {
   border-radius: 9999px;
 }
@@ -707,6 +733,20 @@ html {
 
 .border-b {
   border-bottom-width: 1px;
+}
+
+.border-b-2 {
+  border-bottom-width: 2px;
+}
+
+.bg-gray {
+  --tw-bg-opacity: 1;
+  background-color: rgb(247 247 251 / var(--tw-bg-opacity));
+}
+
+.bg-ijo {
+  --tw-bg-opacity: 1;
+  background-color: rgb(49 179 128 / var(--tw-bg-opacity));
 }
 
 .bg-transparan {
@@ -744,6 +784,11 @@ html {
   padding-right: 2.25rem;
 }
 
+.py-20 {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
 .py-3 {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
@@ -757,6 +802,10 @@ html {
 .py-8 {
   padding-top: 2rem;
   padding-bottom: 2rem;
+}
+
+.text-center {
+  text-align: center;
 }
 
 .text-3xl {
@@ -778,6 +827,10 @@ html {
   line-height: 1.75rem;
 }
 
+.font-bold {
+  font-weight: 700;
+}
+
 .font-medium {
   font-weight: 500;
 }
@@ -797,11 +850,6 @@ html {
 .text-black {
   --tw-text-opacity: 1;
   color: rgb(0 0 0 / var(--tw-text-opacity));
-}
-
-.text-gray-500 {
-  --tw-text-opacity: 1;
-  color: rgb(107 114 128 / var(--tw-text-opacity));
 }
 
 .text-ijo {
@@ -866,8 +914,16 @@ html {
     width: 50%;
   }
 
+  .lg\:w-\[419px\] {
+    width: 419px;
+  }
+
   .lg\:flex-row {
     flex-direction: row;
+  }
+
+  .lg\:justify-between {
+    justify-content: space-between;
   }
 
   .lg\:px-0 {
