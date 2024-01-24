@@ -7,7 +7,8 @@ module.exports = {
         ungu : '#7839F3',
         ijo : '#31B380',
         transparan : '#ECE3FE',
-        gray: '#F7F7FB'
+        gray: '#F7F7FB',
+        purpletua: '#5B5575',
       }
     },
   },

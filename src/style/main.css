@@ -574,6 +574,21 @@ html {
   margin-bottom: 1.75rem;
 }
 
+.my-20 {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.my-\[\] {
+  margin-top: ;
+  margin-bottom: ;
+}
+
+.my-\[70px\] {
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+
 .mt-16 {
   margin-top: 4rem;
 }
@@ -707,12 +722,22 @@ html {
        column-gap: 2.25rem;
 }
 
+.gap-y-1 {
+  row-gap: 0.25rem;
+}
+
 .gap-y-4 {
   row-gap: 1rem;
 }
 
 .gap-y-5 {
   row-gap: 1.25rem;
+}
+
+.space-y-5 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(1.25rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(1.25rem * var(--tw-space-y-reverse));
 }
 
 .rounded-3xl {
@@ -727,16 +752,16 @@ html {
   border-radius: 0.5rem;
 }
 
+.rounded-xl {
+  border-radius: 0.75rem;
+}
+
 .border {
   border-width: 1px;
 }
 
 .border-b {
   border-bottom-width: 1px;
-}
-
-.border-b-2 {
-  border-bottom-width: 2px;
 }
 
 .bg-gray {
@@ -799,9 +824,18 @@ html {
   padding-bottom: 1rem;
 }
 
+.py-5 {
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+}
+
 .py-8 {
   padding-top: 2rem;
   padding-bottom: 2rem;
+}
+
+.text-left {
+  text-align: left;
 }
 
 .text-center {
@@ -820,6 +854,11 @@ html {
 .text-base {
   font-size: 1rem;
   line-height: 1.5rem;
+}
+
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
 }
 
 .text-xl {
@@ -855,6 +894,11 @@ html {
 .text-ijo {
   --tw-text-opacity: 1;
   color: rgb(49 179 128 / var(--tw-text-opacity));
+}
+
+.text-purpletua {
+  --tw-text-opacity: 1;
+  color: rgb(91 85 117 / var(--tw-text-opacity));
 }
 
 .text-ungu {
